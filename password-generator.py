@@ -8,4 +8,4 @@ for i in range(5):
     auto_gen_pass.append(random.choice(string.punctuation))
     auto_gen_pass.append(random.choice(string.digits))
 
-print(''.join(auto_gen_pass))
+print(f"Your new password is: {''.join(auto_gen_pass)}")
